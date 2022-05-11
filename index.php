@@ -30,8 +30,7 @@
     <p>All details in Record Book Listed Here...</p>
     <?php
     $con = mysqli_connect('sql200.epizy.com','epiz_31122228','Syam190543','epiz_31122228_parking_data');
-    if(isset($_REQUST['owner_name']))
-    {
+    if(isset($_REQUST['owner_name'])
         $owner_name = $_REQUEST['owner_name'];
         $vehicle_name = $_REQUEST['vehicle_name'];
         $number_plate = $_REQUEST['number_plate'];
